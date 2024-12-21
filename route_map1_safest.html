@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8e214270c08f1deb98aad56f3b17e8db {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8e214270c08f1deb98aad56f3b17e8db" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8e214270c08f1deb98aad56f3b17e8db = L.map(
+                "map_8e214270c08f1deb98aad56f3b17e8db",
+                {
+                    center: [12.9265737, 77.5835041],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f9b394d10129cf0b98906a2162a8920 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4f9b394d10129cf0b98906a2162a8920.addTo(map_8e214270c08f1deb98aad56f3b17e8db);
+        
+    
+            var marker_0aebe17049b8aa7b38093e6bcfce9249 = L.marker(
+                [12.9265737, 77.5835041],
+                {}
+            ).addTo(map_8e214270c08f1deb98aad56f3b17e8db);
+        
+    
+            var icon_87680d4ac4e3a1a4e845a6dc71cc5a6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0aebe17049b8aa7b38093e6bcfce9249.setIcon(icon_87680d4ac4e3a1a4e845a6dc71cc5a6b);
+        
+    
+        var popup_be06551284b2df4d7e47887c3a731400 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bb218979026f7b60651d2cb11f3adc2 = $(`<div id="html_0bb218979026f7b60651d2cb11f3adc2" style="width: 100.0%; height: 100.0%;">Start: jayanagar 4th block</div>`)[0];
+                popup_be06551284b2df4d7e47887c3a731400.setContent(html_0bb218979026f7b60651d2cb11f3adc2);
+            
+        
+
+        marker_0aebe17049b8aa7b38093e6bcfce9249.bindPopup(popup_be06551284b2df4d7e47887c3a731400)
+        ;
+
+        
+    
+    
+            var marker_9fae39d19b90b3a199da97e07b2c6b88 = L.marker(
+                [12.9301881, 77.5378332],
+                {}
+            ).addTo(map_8e214270c08f1deb98aad56f3b17e8db);
+        
+    
+            var icon_0f9d8495759160c8992ef7961c538413 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9fae39d19b90b3a199da97e07b2c6b88.setIcon(icon_0f9d8495759160c8992ef7961c538413);
+        
+    
+        var popup_aab88881dd8d80255bade83b453e0f65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78ba8467f868b257fc3615ea687eb95b = $(`<div id="html_78ba8467f868b257fc3615ea687eb95b" style="width: 100.0%; height: 100.0%;">End: Hosakerehalli</div>`)[0];
+                popup_aab88881dd8d80255bade83b453e0f65.setContent(html_78ba8467f868b257fc3615ea687eb95b);
+            
+        
+
+        marker_9fae39d19b90b3a199da97e07b2c6b88.bindPopup(popup_aab88881dd8d80255bade83b453e0f65)
+        ;
+
+        
+    
+    
+            var poly_line_bfa6f9499e1715ef010b3494838a2eee = L.polyline(
+                [[12.9268586, 77.5835686], [12.9263332, 77.5838021], [12.9263363, 77.5837114], [12.9263484, 77.582848], [12.9263527, 77.5823354], [12.926357, 77.5817669], [12.926363, 77.5811365], [12.9263668, 77.580693], [12.9263704, 77.5802536], [12.9234648, 77.5802805], [12.9234147, 77.5802811], [12.9234146, 77.5801757], [12.9234158, 77.5797694], [12.9234409, 77.5779587], [12.9234597, 77.5772085], [12.9234836, 77.5762524], [12.9233016, 77.576102], [12.9218806, 77.5748285], [12.921815, 77.5747885], [12.9208734, 77.5744772], [12.9207487, 77.5744376], [12.9207675, 77.5743608], [12.9209545, 77.5735959], [12.9209682, 77.5735399], [12.92149, 77.5712485], [12.921618, 77.5707179], [12.9218012, 77.5698153], [12.921919, 77.5698502], [12.9220687, 77.5698947], [12.9222163, 77.569879], [12.9223061, 77.5693272], [12.9226986, 77.5671502], [12.9223342, 77.5670845], [12.9224161, 77.5666596], [12.9224972, 77.5662318], [12.9225937, 77.5656541], [12.9221428, 77.5654911], [12.9225445, 77.5639258], [12.9218082, 77.5633293], [12.9219429, 77.5629416], [12.9220786, 77.5625531], [12.9221351, 77.5623913], [12.9222027, 77.5621978], [12.9225036, 77.5612576], [12.9225624, 77.5610803], [12.9227322, 77.5604241], [12.9221722, 77.560312], [12.9219461, 77.5602749], [12.9217489, 77.5602396], [12.9217586, 77.5601447], [12.9217887, 77.559967], [12.9221091, 77.5586928], [12.9222109, 77.5585688], [12.9224271, 77.557951], [12.9229595, 77.5562813], [12.9235455, 77.5544812], [12.9236672, 77.5540915], [12.9237113, 77.5539504], [12.9239288, 77.5532539], [12.9243137, 77.5520893], [12.9244639, 77.5516712], [12.9247261, 77.5511088], [12.9253441, 77.5499704], [12.9253743, 77.5499125], [12.9255092, 77.5496701], [12.9256844, 77.5493707], [12.925844, 77.5490966], [12.9263692, 77.5483569], [12.9266882, 77.5479628], [12.928027, 77.5462494], [12.9292613, 77.5447417], [12.9314049, 77.5423712], [12.9321216, 77.5414111], [12.9324059, 77.5410086], [12.9319296, 77.5408127], [12.9316569, 77.5407222], [12.9308432, 77.5403667], [12.9308977, 77.5400292], [12.9309509, 77.5396994], [12.9302406, 77.5396034], [12.9301965, 77.5395542], [12.9300252, 77.5393111], [12.929818, 77.5390234], [12.930094, 77.5385108], [12.9300632, 77.5383013]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_8e214270c08f1deb98aad56f3b17e8db);
+        
+</script>
+</html>
